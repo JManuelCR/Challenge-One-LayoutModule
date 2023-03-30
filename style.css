@@ -1,0 +1,20 @@
+html,
+body{
+    background: white;
+    height: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.red-cube{
+    background: #cb3234;
+    position: absolute;
+    height: 5rem;
+    width: 7rem;
+}
+
+.red-cube img{
+    width: 5rem;
+    position:relative;
+    align-items: end;
+}
