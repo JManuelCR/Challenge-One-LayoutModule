@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  background: white;
+  font-size: 16px;
+  font-family: "Sawarabi Mincho", "Patua One", serif;
+}
+.navbar-toggler {
+  border-color: white;
+  margin-right: 6rem;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon {
+    height: 2rem;
+    margin-top: 0rem;
+    width: 2rem;
+}
+.navbar-toggler .icon-bar {
+  display: block;
+  height: 0.125rem;
+  border-radius: 0.0625rem;
+  margin-bottom: 0.1875rem;
+  width: 1.375rem;
+}
+.navbar-toggler .icon-bar:last-child {
+  margin-bottom: 0;
+}
+.navbar-brand {
+  font-family: "Patua One";
+  font-size: 1.875rem;
+  margin-left: 4rem;
+  padding-top: 0rem;
+}
+.nav-link {
+  font-size: 18px;
+  color: #666;
+}
+.collapse,
+.navbar-collapse {
+    display: flex;
+    float: right;
+    justify-content: end;
+    margin-right: 5rem;
+    width: 20%;
+}
+@media (max-width: 480px) {
+  .navbar-toggler {
+    margin-right: 1.5rem;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-toggler {
+    margin-right: 6rem;
+  }
+  .navbar-brand {
+    font-size: 4rem;
+    margin-left: 5rem;
+  }
+  .navbar-toggler-icon {
+    height: 5rem;
+    margin-top: 1rem;
+    width: 5rem;
+  }
+  .navbar-toggler .icon-bar {
+    display: block;
+    height: 0.875px;
+    border-radius: 60.375px;
+    margin-bottom: 0.625rem;
+    width: 2.75rem;
+  }
+  .navbar-toggler .icon-bar:last-child {
+    margin-bottom: 0;
+  }
+}
