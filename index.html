@@ -1,43 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reto Maque</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Patua+One&family=Sawarabi+Mincho&display=swap"
+    rel="stylesheet"
+    />
+    <title>Challenge One Layout</title>
 </head>
 <body>
-    <div class="red-cube">
-        <img src="./img.png" alt="img de cubos de carretera">
-    </div>
-    <div class="white-box">.</div>
-    <div class="text-in-red">
-        <h2>Why choose us</h2>
-    </div>
-        <div class="icon-txt-1">
-            <i class='bx bx-scatter-chart'></i>
-            <h4>Titulo 1...</h4>
-            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+    <header>
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">BCoatch</a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            </ul>
         </div>
-        <div class="icon-txt-2">
-            <i class='bx bx-conversation'></i>
-            <h4>Titulo 2...</h4>
-            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
         </div>
-        <div class="icon-txt-3">
-            <i class='bx bxs-bolt'></i>
-            <h4>Titulo 3...</h4>
-            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+    </nav>
+    <section class="presentation">
+        <div class="companyInfo">
+        <div class="infoContainer">
+            <h1>
+            Creative Digital <br />
+            Agency
+            </h1>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Cupiditate alias suscipit consectetur similique, fugiat error
+            architecto tenetur.
+            </p>
+            <h2>Lo hacemos para impresionarte</h2>
+        </div>
+        </div>
+        <div class="squares">
+        <div class="square square__productValue">
+            <h3>Product Value</h3>
+            <span></span>
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea non
+            iusto architecto veniam dignissimos.
+            </p>
+        </div>
+        <div class="square square__productImage">
+            <h3>Product Image</h3>
+            <span></span>
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea non
+            iusto architecto veniam dignissimos.
+            </p>
+        </div>
+        <div class="square square__topSolutions">
+            <h3>Top Solutions</h3>
+            <span></span>
+            <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea non
+            iusto architecto veniam dignissimos.
+            </p>
         </div>
     </div>
-    <div class="img-1">
+</section>
 
+<div class="red-cube">
+    <img src="./img.png" alt="img de cubos de carretera">
+</div>
+<div class="white-box">.</div>
+<div class="text-in-red">
+    <h2>Why choose us</h2>
+</div>
+    <div class="icon-txt-1">
+        <i class='bx bx-scatter-chart'></i>
+        <h4>Titulo 1...</h4>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
     </div>
-    
-    
+    <div class="icon-txt-2">
+        <i class='bx bx-conversation'></i>
+        <h4>Titulo 2...</h4>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+    </div>
+    <div class="icon-txt-3">
+        <i class='bx bxs-bolt'></i>
+        <h4>Titulo 3...</h4>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+    </div>
+</div>
+<div class="img-1">
 
+</div>
 
+    </header>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+    ></script>
 </body>
 </html>
+
