@@ -6,18 +6,20 @@ html {
   background: white;
   font-size: 16px;
   font-family: "Sawarabi Mincho", "Patua One", serif;
+  text-align: center;
 }
 .navbar-toggler {
+  border: none;
   border-color: white;
   margin-right: 6rem;
 }
-.navbar-toggler:focus{
-    box-shadow: none;
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 .navbar-toggler-icon {
-    height: 2rem;
-    margin-top: 0rem;
-    width: 2rem;
+  height: 2rem;
+  margin-top: 0rem;
+  width: 2rem;
 }
 .navbar-toggler .icon-bar {
   display: block;
@@ -36,16 +38,83 @@ html {
   padding-top: 0rem;
 }
 .nav-link {
-  font-size: 18px;
+  font-size: 1rem;
   color: #666;
 }
 .collapse,
 .navbar-collapse {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+section .companyInfo {
+  background-image: url(./assets/Header-background-image.jpg);
+  background-size: cover;
+  display: flex;
+  height: 28rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.infoContainer {
+  width: 38rem;
+}
+.infoContainer h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  text-shadow: 0.3755rem 0.125rem 0.5rem black;
+}
+.infoContainer p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-shadow: 0.3755rem 0.125rem 0.125rem black;
+}
+.infoContainer h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  text-shadow: 0.3755rem 0.125rem 0.125rem black;
+}
+section .squares {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: repeat(1, 1fr);
+  height: 18rem;
+}
+.square {
+    align-items: start;
+    color: white;
     display: flex;
-    float: right;
-    justify-content: end;
-    margin-right: 5rem;
-    width: 20%;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 0rem 0.875rem 0rem 1.5rem;
+    width: 100%;
+}
+.squares .square__productValue {
+  background: rgb(30, 29, 29);
+}
+.squares .square__productImage {
+  background: rgb(116, 7, 7);
+}
+.squares .square__topSolutions {
+  background: rgb(39, 3, 43);
+}
+.square h3 {
+    font-size: 1rem;
+}
+.square p{
+    font-size: 0.75rem;
+    text-align: start;
+}
+.square span {
+    margin: 1rem 0rem;
+    background: white;
+    border-radius: 0.125rem;
+    height: .125rem;
+    opacity: 0.75;
+    width: 2rem;
 }
 @media (max-width: 480px) {
   .navbar-toggler {
@@ -55,19 +124,24 @@ html {
     font-size: 2rem;
     margin-left: 1.5rem;
   }
+  section .squares {
+    display: flex;
+    flex-direction: column;
+    height: 46rem;
+  }
 }
 @media (min-width: 1200px) {
   .navbar-toggler {
     margin-right: 6rem;
   }
   .navbar-brand {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 5rem;
   }
   .navbar-toggler-icon {
-    height: 5rem;
-    margin-top: 1rem;
-    width: 5rem;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+    width: 3.5rem;
   }
   .navbar-toggler .icon-bar {
     display: block;
