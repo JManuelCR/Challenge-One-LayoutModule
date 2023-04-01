@@ -130,92 +130,60 @@ background: rgb(39, 3, 43);
     opacity: 0.75;
     width: 2rem;
 }
-.red-cube{
-    background: #cb3234;
-    position: absolute;
-    margin-top: 7rem;
-    height: 25rem;
-    width: 80rem;
-    margin-left: -0.5rem;
+.red-section{
+    background:rgb(116, 7, 7);
+    display: flex;
+    margin-top: .1rem;
+    height: 50rem;
+    width: 100%;
+    align-items: center;
 }
 
 .white-box{
-    position:absolute;
-    width: 74rem;
-    height: 19.5rem;
-    background: white;
-    margin-top: 10rem;
-    margin-left: 2.5rem;
+    background: yellow;
+    display: grid;
     border-radius: 1rem;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
 } 
 
-.red-cube img{
+.white-box .txt-container{
     display: flex;
-    position:relative;
-    height: 16rem;
-    margin: auto;
-    margin-right: 10rem; 
-    margin-top: 4rem;   
-    text-align: end;
-    width: 24rem;
-    z-index: 2;
+    width:100%;
+    height: 200px;
+    flex-direction: column;
 }
 
-.text-in-red{
-    text-align:start;
-    position: fixed;
-    margin-top: 9rem;
-    margin-left: 4rem;
-    font-size: 1rem;
+.white-box .imagen-cubos{
+    display: flex;
+    width:100%;
+    justify-content: end;
+    height: 200px;
 }
 
-.icon-txt-1{
-    text-align: start;
-    position:fixed;
-    margin-top: 11.4rem;
-    margin-left: 4rem;
-    flex-wrap: wrap;
-    width: 15rem;
-    font-size: .7rem;
+.white-box img {
+    width: 50%;
+    height: auto;
+    margin-right: 1rem;
 }
 
-.icon-txt-1 .bx-scatter-chart{
-    position: fixed;
-    margin-left: -0.80rem;
-    margin-top: 1.1rem;
+.txt-container .h2 {
+    background:aqua;
 }
 
-.icon-txt-2{
-    text-align: start;
-    position:fixed;
-    margin-top: 16.8rem;
-    margin-left: 4rem;
-    flex-wrap: wrap;
-    width: 15rem;
-    font-size: .7rem;
+.txt-container .icon-txt-1 {
+    background: red;
+    position: relative;
+}
+.txt-container .icon-txt-2{
+    background: pink;
+}
+.txt-container .icon-txt-3{
+    background: saddlebrown;
 }
 
-.icon-txt-2 .bx-conversation{
-    position: fixed;
-    margin-left: -0.80rem;
-    margin-top: 1.13rem;
-}
-
-.icon-txt-3 {
-    text-align: start;
-    position:fixed;
-    margin-top: 22rem;
-    margin-left: 4rem;
-    flex-wrap: wrap;
-    width: 15rem;
-    font-size: .7rem;
-}
-
-.icon-txt-3 .bxs-bolt{
-    position: fixed;
-    margin-left: -0.80rem;
-    margin-top: 1.15rem;
-}
 @media (max-width: 480px) {
 .navbar-toggler {
     margin-right: 1.5rem;
@@ -228,6 +196,10 @@ section .squares {
     display: flex;
     flex-direction: column;
     height: 46rem;
+}
+.white-box{
+    display: flex;
+
 }
 }
 @media (min-width: 1200px) {
