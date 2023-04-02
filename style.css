@@ -22,7 +22,7 @@ header .navbar {
 .navbar .navbar__brand {
   color: black;
   font-family: "Patua One", serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-left: 3rem;
   text-decoration: none;
 }
@@ -33,12 +33,12 @@ header .navbar {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  height: 1.875rem;
+  height: 1.5rem;
   justify-content: center;
   margin-right: 3rem;
   padding: 0.375rem;
   position: relative;
-  width: 1.875rem;
+  width: 1.5rem;
 }
 .navbar .navbar__buttonMenu:hover {
   border: 0.125rem solid black;
@@ -47,7 +47,7 @@ header .navbar {
 .navbar__buttonMenu .icon-bar {
   background-color: rgb(11, 11, 55);
   height: 0.125rem;
-  width: 1.5rem;
+  width: 1.125rem;
 }
 .navbar__buttonMenu:hover .close1 {
   animation: close1 0.5s forwards;
@@ -140,10 +140,10 @@ section .squares {
   text-align: start;
 }
 .square span {
-  margin: 0.875rem 0rem;
   background: white;
   border-radius: 0.125rem;
   height: 0.125rem;
+  margin: 0.875rem 0rem;
   opacity: 0.75;
   width: 2rem;
 }
