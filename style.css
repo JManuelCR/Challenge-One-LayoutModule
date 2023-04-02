@@ -134,54 +134,195 @@ background: rgb(39, 3, 43);
     background:rgb(116, 7, 7);
     display: flex;
     margin-top: .1rem;
-    height: 50rem;
+    height: 40rem;
     width: 100%;
     align-items: center;
 }
 
-.white-box{
-    background: yellow;
+.red-section .white-box{
+    background: white;
     display: grid;
     border-radius: 1rem;
     flex-wrap: wrap;
     flex: 1 1 auto;
     grid-template-columns: repeat(2, 1fr);
-    height: 500px;
+    height: 450px;
 } 
 
 .white-box .txt-container{
     display: flex;
     width:100%;
-    height: 200px;
+    height: 400px;
     flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.15rem;
 }
 
 .white-box .imagen-cubos{
+    align-items: center;
     display: flex;
+    justify-content: center;
     width:100%;
-    justify-content: end;
-    height: 200px;
+    height: 100%;
 }
 
 .white-box img {
-    width: 50%;
-    height: auto;
-    margin-right: 1rem;
+    width: 80%;
+    height: 70%;
+    margin-bottom: 1rem;
 }
-
+    
 .txt-container .h2 {
-    background:aqua;
+    text-align: start;
+    max-width: fit-content;
 }
 
+.txt-container h2{
+    margin-left: 1rem;
+    font-weight: 600;
+}
 .txt-container .icon-txt-1 {
-    background: red;
-    position: relative;
+    text-align: justify;
+    width: fit-content;
 }
+
+.txt-container .icon-txt-1 i{
+    align-items: start;
+    margin-top: .3rem;
+    margin-left: .2rem;
+}
+
+.txt-container h4 {
+    font-weight: 600;
+    margin-left: .625rem;
+}
+
+.txt-container p{
+    margin-left: 1rem;
+}
+
+.icon-txt-1 .icon-h4{
+    display: flex;
+}
+
 .txt-container .icon-txt-2{
-    background: pink;
+    text-align: justify;
+    width: fit-content;
 }
+
+.icon-txt-2 .icon-h4 {
+    display: flex;
+}
+
+.icon-h4 i{
+    margin-top: .3rem;
+}
+
 .txt-container .icon-txt-3{
-    background: saddlebrown;
+    text-align: justify;
+    width: fit-content;
+}
+.icon-txt-3 .icon-h4{
+    display: flex;
+}
+
+.colage-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.colage-img .img-container {
+    display: grid;
+    grid-template-rows:repeat(4, 1fr);
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 55%;
+    height: 65%;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.linea-vertical {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 5rem;
+}
+
+.linea-vertical p{
+    display: flex;
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 20px;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 2.2rem;
+    color: black;
+    gap: 2rem;
+}
+
+.ama-pro .ama-pro-txt {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.ama-pro .valor {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: rgb(116, 7, 7);
+    font-weight: 600;
+}
+
+.happy-clients .happy-des {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.happy-clients .valor {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: rgb(116, 7, 7);
+    font-weight: 600;
+}
+
+.tazas-cafe .taza-des {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.tazas-cafe .valor {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: rgb(116, 7, 7);
+    font-weight: 600;
+}
+
+.premios .premios-txt {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.premios .valor {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: rgb(116, 7, 7);
+    font-weight: 600;
 }
 
 @media (max-width: 480px) {
