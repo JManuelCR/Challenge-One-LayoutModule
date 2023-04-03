@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
 }
-
 body,
 html {
     background: white;
@@ -10,7 +9,6 @@ html {
     font-family: "Sawarabi Mincho", "Patua One", serif;
     text-align: center;
 }
-
 header .navbar {
     align-items: center;
     background-color: white;
@@ -21,7 +19,6 @@ header .navbar {
     position: fixed;
     width: 100%;
 }
-
 .navbar .navbar__brand {
     color: black;
     font-family: "Patua One", serif;
@@ -29,7 +26,6 @@ header .navbar {
     margin-left: 3rem;
     text-decoration: none;
 }
-
 .navbar .navbar__buttonMenu {
     align-items: center;
     background-color: transparent;
@@ -44,30 +40,24 @@ header .navbar {
     position: relative;
     width: 1.5rem;
 }
-
 .navbar .navbar__buttonMenu:hover {
     border: 0.125rem solid black;
     border-radius: 0.25rem;
 }
-
 .navbar__buttonMenu .icon-bar {
     background-color: rgb(11, 11, 55);
     height: 0.125rem;
     width: 1.125rem;
 }
-
 .navbar__buttonMenu:hover .close1 {
     animation: close1 0.5s forwards;
 }
-
 .navbar__buttonMenu:hover .close2 {
     animation: close2 0.5s forwards;
 }
-
 .navbar__buttonMenu:hover .close3 {
     animation: close3 0.5s forwards;
 }
-
 .navbar__menu {
     background-color: white;
     border-radius: 0.25rem;
@@ -77,11 +67,9 @@ header .navbar {
     top: 2.5rem;
     width: 5.5rem;
 }
-
 .navbar__buttonMenu:hover .navbar__menu {
     display: block;
 }
-
 .navbar__menu a {
     color: black;
     display: inline-block;
@@ -89,7 +77,6 @@ header .navbar {
     margin-top: 0.5rem;
     text-decoration: none;
 }
-
 section .companyInfo {
     align-items: center;
     background-image: url(./assets/Header-background-image.jpg);
@@ -99,39 +86,33 @@ section .companyInfo {
     height: 31.5rem;
     justify-content: center;
 }
-
 .infoContainer {
     width: 24rem;
 }
-
 .infoContainer h1 {
     font-size: 3rem;
     font-weight: bolder;
     margin-top: 1.875rem;
     text-shadow: 0.375rem 0.125rem 0.875rem black;
 }
-
 .infoContainer p {
     font-size: 0.75rem;
     font-weight: 600;
     margin-top: 0.75rem;
     text-shadow: 0.3755rem 0.125rem 0.5rem black;
 }
-
 .infoContainer h2 {
     font-size: 1.75rem;
     font-weight: 700;
     margin-top: 1.75rem;
     text-shadow: 0.3755rem 0.125rem 0.5rem black;
 }
-
 section .squares {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row: repeat(1, 1fr);
     height: 16rem;
 }
-
 .square {
     align-items: start;
     color: white;
@@ -142,28 +123,22 @@ section .squares {
     padding: 0rem 1rem 0rem 1.5rem;
     width: 100%;
 }
-
 .squares .square__productValue {
     background: #323232;
 }
-
 .squares .square__productImage {
     background: #d51526;
 }
-
 .squares .square__topSolutions {
     background: #37304e;
 }
-
 .square h3 {
     font-size: 1rem;
 }
-
 .square p {
     font-size: 0.75rem;
     text-align: start;
 }
-
 .square span {
     background: white;
     border-radius: 0.125rem;
@@ -172,7 +147,6 @@ section .squares {
     opacity: 0.75;
     width: 5rem;
 }
-
 main article {
     align-items: center;
     display: flex;
@@ -180,17 +154,14 @@ main article {
     justify-content: center;
     width: 100%;
 }
-
 main article .container {
     width: 60%;
 }
-
 article .container h1 {
     font-size: 1rem;
     font-weight: 800;
     margin-bottom: 1.25rem;
 }
-
 article .container div span {
     background-color: #d51526;
     border-radius: 0.25rem;
@@ -198,23 +169,19 @@ article .container div span {
     margin-top: 0.5rem;
     width: 100%;
 }
-
 article .container>div {
     display: flex;
     gap: 1.25rem;
 }
-
 article .container>div>p {
     font-size: 0.75rem;
     font-weight: 300;
     text-align: start;
     width: calc(85% - 0.875rem);
 }
-
 article .container>div>span {
     width: calc(15% - 0.8755rem);
 }
-
 main .thirdPart {
     align-items: center;
     background-color: #37304e;
@@ -224,7 +191,6 @@ main .thirdPart {
     padding: 2rem 0rem;
     width: 100%;
 }
-
 .containerHigthLigths {
     align-items: center;
     display: flex;
@@ -233,37 +199,31 @@ main .thirdPart {
     justify-content: center;
     width: 100%;
 }
-
 section .containerHigthLigths .galeryWinningTactics {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     max-width: 26.5rem;
 }
-
 .galeryWinningTactics .topImages {
     height: 20rem;
     width: 13rem;
 }
-
 .galeryWinningTactics .office {
     height: 8rem;
     width: 13rem;
 }
-
 .galeryWinningTactics div {
     background-color: #d51526;
     height: 8rem;
     padding: 1rem;
     width: 13rem;
 }
-
 .galeryWinningTactics div h4 {
     color: white;
     font-size: 0.75rem;
     font-weight: 600;
 }
-
 .galeryWinningTactics div p {
     color: white;
     font-size: 0.5rem;
@@ -271,7 +231,6 @@ section .containerHigthLigths .galeryWinningTactics {
     margin-top: 0.75rem;
     text-align: start;
 }
-
 main aside {
     background-color: aliceblue;
     border-radius: 0.5rem;
@@ -280,13 +239,11 @@ main aside {
     padding: 7rem 1.5rem;
     text-align: start;
 }
-
 main aside p {
     font-size: 0.875rem;
     font-weight: 300;
     margin-top: 1.5rem;
 }
-
 .red-cube {
     background: #cb3234;
     position: absolute;
@@ -295,7 +252,6 @@ main aside p {
     width: 80rem;
     margin-left: -0.5rem;
 }
-
 .white-box {
     position: absolute;
     width: 74rem;
@@ -305,7 +261,6 @@ main aside p {
     margin-left: 2.5rem;
     border-radius: 1rem;
 }
-
 .red-cube img {
     display: flex;
     position: relative;
@@ -317,7 +272,6 @@ main aside p {
     width: 24rem;
     z-index: 2;
 }
-
 .text-in-red {
     text-align: start;
     position: fixed;
@@ -325,7 +279,6 @@ main aside p {
     margin-left: 4rem;
     font-size: 1rem;
 }
-
 .icon-txt-1 {
     text-align: start;
     position: fixed;
@@ -335,13 +288,11 @@ main aside p {
     width: 15rem;
     font-size: 0.7rem;
 }
-
 .icon-txt-1 .bx-scatter-chart {
     position: fixed;
     margin-left: -0.8rem;
     margin-top: 1.1rem;
 }
-
 .icon-txt-2 {
     text-align: start;
     position: fixed;
@@ -351,13 +302,11 @@ main aside p {
     width: 15rem;
     font-size: 0.7rem;
 }
-
 .icon-txt-2 .bx-conversation {
     position: fixed;
     margin-left: -0.8rem;
     margin-top: 1.13rem;
 }
-
 .icon-txt-3 {
     text-align: start;
     position: fixed;
@@ -367,13 +316,11 @@ main aside p {
     width: 15rem;
     font-size: 0.7rem;
 }
-
 .icon-txt-3 .bxs-bolt {
     position: fixed;
     margin-left: -0.8rem;
     margin-top: 1.15rem;
 }
-
 .red-section {
     background: rgb(116, 7, 7);
     display: flex;
@@ -392,7 +339,6 @@ main aside p {
     grid-template-columns: repeat(2, 1fr);
     height: 450px;
 }
-
 .white-box .txt-container {
     display: flex;
     width: 100%;
@@ -403,7 +349,6 @@ main aside p {
     margin-left: 1rem;
     font-size: 1.15rem;
 }
-
 .white-box .imagen-cubos {
     align-items: center;
     display: flex;
@@ -411,69 +356,55 @@ main aside p {
     width: 100%;
     height: 100%;
 }
-
 .white-box img {
     width: 80%;
     height: 70%;
     margin-bottom: 1rem;
 }
-
 .txt-container .h2 {
     text-align: start;
     max-width: fit-content;
 }
-
 .txt-container h2 {
     margin-left: 1rem;
     font-weight: 600;
 }
-
 .txt-container .icon-txt-1 {
     text-align: justify;
     width: fit-content;
 }
-
 .txt-container .icon-txt-1 i {
     align-items: start;
     margin-top: 0.3rem;
     margin-left: 0.2rem;
 }
-
 .txt-container h4 {
     font-weight: 600;
     margin-left: 0.625rem;
 }
-
 .txt-container p {
     margin-left: 1rem;
 }
-
 .icon-txt-1 .icon-h4 {
     display: flex;
 }
-
 .txt-container .icon-txt-2 {
     text-align: justify;
     width: fit-content;
 }
-
 .icon-txt-2 .icon-h4 {
     display: flex;
 }
-
 .icon-h4 i {
     margin-top: 0.3rem;
 }
-
 .txt-container .icon-txt-3 {
     text-align: justify;
     width: fit-content;
 }
-
 .icon-txt-3 .icon-h4 {
     display: flex;
 }
-
 .colage-img {
     width: 100%;
     height: 100%;
@@ -482,7 +413,6 @@ main aside p {
     justify-content: center;
     margin-top: 4rem;
 }
-
 .colage-img .img-container {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -491,27 +421,23 @@ main aside p {
     width: 55%;
     height: 65%;
 }
-
 .img-container img {
     width: 100%;
     height: 100%;
     align-items: center;
 }
-
 .linea-vertical {
     display: flex;
     justify-content: center;
     width: 100%;
     font-size: 5rem;
 }
-
 .linea-vertical p {
     display: flex;
     border-top: 1px solid black;
     height: 2px;
     max-width: 20px;
 }
-
 .contador {
     display: flex;
     justify-content: center;
@@ -522,281 +448,230 @@ main aside p {
     color: black;
     gap: 2rem;
 }
-
 .ama-pro .ama-pro-txt {
     font-size: 1em;
     margin-top: 5px;
 }
-
 .ama-pro .valor {
     font-size: 3rem;
     margin-bottom: 5px;
     color: rgb(116, 7, 7);
     font-weight: 600;
 }
-
 .happy-clients .happy-des {
     font-size: 1em;
     margin-top: 5px;
 }
-
 .happy-clients .valor {
     font-size: 3rem;
     margin-bottom: 5px;
     color: rgb(116, 7, 7);
     font-weight: 600;
 }
-
 .tazas-cafe .taza-des {
     font-size: 1em;
     margin-top: 5px;
 }
-
 .tazas-cafe .valor {
     font-size: 3rem;
     margin-bottom: 5px;
     color: rgb(116, 7, 7);
     font-weight: 600;
 }
-
 .premios .premios-txt {
     font-size: 1em;
     margin-top: 5px;
 }
-
 .premios .valor {
     font-size: 3rem;
     margin-bottom: 5px;
     color: rgb(116, 7, 7);
     font-weight: 600;
 }
-
 .white-box {
     display: flex;
 }
-
 #section1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 25rem;
     width: 85%;
 }
-
-.services img {
+.services .icon {
     height: 55px;
-    margin: 25px;
+    margin: 55px;
     padding: 25px;
     width: 55px;
 }
-
 .grid .services {
     display: flex;
     flex-direction: column;
     justify-content: start;
     width: 90%;
 }
-
 .services h2 {
     color: blanchedalmond;
 }
-
 .services p {
     color: blanchedalmond;
 }
-
 #section1 {
     background-color: rgb(56, 50, 79);
 }
-
-
 #section2 {
     align-items: center;
     display: flex;
     justify-content: center;
     width: 80%;
 }
-
 .parte2 {
     align-items: center;
     display: flex;
 }
-
 .clients img {
     margin: 25px;
     padding: 105px;
     width: 400px;
 }
-
 .opinion {
     text-align: justify;
 }
-
-
 footer .fin {
     align-items: center;
     display: flex;
     justify-content: space-between;
     width: 60%;
 }
-
 footer .section1 {
     background-color: #2b2933;
     display: flex;
     justify-content: center;
     width: 100%;
 }
-
 footer .fin h1 {
     color: blanchedalmond;
 }
-
 .social img {
     height: 20px;
     width: 20px;
 }
-
 .fin button {
     background-color: #2b2933;
     color: blanchedalmond;
 }
-
-
 footer .section2 {
     background-color: rgb(46, 41, 41);
     display: flex;
     justify-content: center;
     width: 100%;
 }
-
 footer .pfinal {
     align-items: center;
     display: flex;
     justify-content: space-between;
     width: 14%;
 }
-
-
 .section2 p {
     color: aliceblue;
 }
-
 .pfinal {
     display: flex;
 }
-
 .pfinal .templated {
     text-decoration: underline;
 }
-
 .pfinal .nice {
     text-decoration: underline;
-
-    @keyframes close1 {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            height: 26rem;
-            position: relative;
-            top: 0.375rem;
-            transform: rotate(45deg);
-            width: 1.125rem;
-        }
+}
+@keyframes close1 {
+    from {
+        transform: rotate(0deg);
     }
 
-    @keyframes close2 {
-        from {
-            opacity: 1;
-        }
-
-        to {
-            opacity: 0;
-        }
+    to {
+        height: 26rem;
+        position: relative;
+        top: 0.375rem;
+        transform: rotate(45deg);
+        width: 1.125rem;
     }
-
-    @keyframes close3 {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            bottom: 0.125rem;
-            height: 30rem;
-            position: relative;
-            transform: rotate(135deg);
-            width: 1.25rem;
-        }
+}
+@keyframes close2 {
+    from {
+        opacity: 1;
     }
-
-    @media (max-width: 480px) {
-        .navbar-toggler {
-            margin-right: 1.5rem;
-        }
-
-        .navbar-brand {
-            font-size: 2rem;
-            margin-left: 1.5rem;
-        }
-
-        section .squares {
-            display: flex;
-            flex-direction: column;
-            height: 46rem;
-        }
-
-        main article {
-            height: auto;
-        }
-
-        section .containerHigthLigths .galeryWinningTactics {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .containerHigthLigths {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        main aside {
-            height: auto;
-            padding: 1.5rem 2rem;
-        }
+    to {
+        opacity: 0;
     }
-
-    @media (min-width: 1200px) {
-        .navbar-toggler {
-            margin-right: 6rem;
-        }
-
-        .navbar-brand {
-            font-size: 3rem;
-            margin-left: 5rem;
-        }
-
-        .navbar-toggler-icon {
-            height: 3.5rem;
-            margin-top: 0.5rem;
-            width: 3.5rem;
-        }
-
-        .navbar-toggler .icon-bar {
-            display: block;
-            height: 0.875px;
-            border-radius: 60.375px;
-            margin-bottom: 0.625rem;
-            width: 2.75rem;
-        }
-
-        .navbar-toggler .icon-bar:last-child {
-            margin-bottom: 0;
-        }
+}
+@keyframes close3 {
+    from {
+        transform: rotate(0deg);
     }
+    to {
+        bottom: 0.125rem;
+        height: 30rem;
+        position: relative;
+        transform: rotate(135deg);
+        width: 1.25rem;
+    }
+}
+@media (max-width: 480px) {
+    .navbar-toggler {
+        margin-right: 1.5rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+        margin-left: 1.5rem;
+    }
+    section .squares {
+        display: flex;
+        flex-direction: column;
+        height: 46rem;
+    }
+    main article {
+        height: auto;
+    }
+    section .containerHigthLigths .galeryWinningTactics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .containerHigthLigths {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main aside {
+        height: auto;
+        padding: 1.5rem 2rem;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-toggler {
+        margin-right: 6rem;
+    }
+    .navbar-brand {
+        font-size: 3rem;
+        margin-left: 5rem;
+    }
+    .navbar-toggler-icon {
+        height: 3.5rem;
+        margin-top: 0.5rem;
+        width: 3.5rem;
+    }
+    .navbar-toggler .icon-bar {
+        display: block;
+        height: 0.875px;
+        border-radius: 60.375px;
+        margin-bottom: 0.625rem;
+        width: 2.75rem;
+    }
+    .navbar-toggler .icon-bar:last-child {
+        margin-bottom: 0;
+    }
+}
