@@ -525,41 +525,9 @@ main aside p {
   color: rgb(116, 7, 7);
   font-weight: 600;
 }
-
-@media (max-width: 480px) {
-  .navbar-toggler {
-    margin-right: 1.5rem;
-  }
-  .navbar-brand {
-    font-size: 2rem;
-    margin-left: 1.5rem;
-  }
-  section .squares {
-    display: flex;
-    flex-direction: column;
-    height: 46rem;
-  }
-  main article {
-    height: auto;
-  }
-  section .containerHigthLigths .galeryWinningTactics {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .containerHigthLigths {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  main aside {
-    height: auto;
-    padding: 1.5rem 2rem;
-  }
-}
-
 .white-box {
-  display: flex;
-}
+    display: flex;
+  }
 @keyframes close1 {
   from {
     transform: rotate(0deg);
@@ -592,6 +560,36 @@ main aside p {
     width: 1.25rem;
   }
 }
+@media (max-width: 480px) {
+    .navbar-toggler {
+      margin-right: 1.5rem;
+    }
+    .navbar-brand {
+      font-size: 2rem;
+      margin-left: 1.5rem;
+    }
+    section .squares {
+      display: flex;
+      flex-direction: column;
+      height: 46rem;
+    }
+    main article {
+      height: auto;
+    }
+    section .containerHigthLigths .galeryWinningTactics {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .containerHigthLigths {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    main aside {
+      height: auto;
+      padding: 1.5rem 2rem;
+    }
+  }
 @media (min-width: 1200px) {
   .navbar-toggler {
     margin-right: 6rem;
