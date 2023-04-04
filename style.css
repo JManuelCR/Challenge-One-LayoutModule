@@ -52,15 +52,12 @@ header .navbar {
 .navbar__buttonMenu:hover .close1 {
   animation: close1 0.5s forwards;
 }
-
 .navbar__buttonMenu:hover .close2 {
   animation: close2 0.5s forwards;
 }
-
 .navbar__buttonMenu:hover .close3 {
   animation: close3 0.5s forwards;
 }
-
 .navbar__menu {
   background-color: white;
   border-radius: 0.25rem;
@@ -70,11 +67,9 @@ header .navbar {
   top: 2.5rem;
   width: 5.5rem;
 }
-
 .navbar__buttonMenu:hover .navbar__menu {
   display: block;
 }
-
 .navbar__menu a {
   color: black;
   display: inline-block;
@@ -82,7 +77,6 @@ header .navbar {
   margin-top: 0.5rem;
   text-decoration: none;
 }
-
 section .companyInfo {
   align-items: center;
   background-image: url(./assets/Header-background-image.jpg);
@@ -92,32 +86,27 @@ section .companyInfo {
   height: 31.5rem;
   justify-content: center;
 }
-
 .infoContainer {
   width: 24rem;
 }
-
 .infoContainer h1 {
   font-size: 3rem;
   font-weight: bolder;
   margin-top: 1.875rem;
   text-shadow: 0.375rem 0.125rem 0.875rem black;
 }
-
 .infoContainer p {
   font-size: 0.75rem;
   font-weight: 600;
   margin-top: 0.75rem;
   text-shadow: 0.3755rem 0.125rem 0.5rem black;
 }
-
 .infoContainer h2 {
   font-size: 1.75rem;
   font-weight: 700;
   margin-top: 1.75rem;
   text-shadow: 0.3755rem 0.125rem 0.5rem black;
 }
-
 section .squares {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -190,9 +179,18 @@ article .container > div > p {
   text-align: start;
   width: calc(85% - 0.875rem);
 }
-
-article .container > div > span {
-  width: calc(15% - 0.8755rem);
+article .container>div {
+    display: flex;
+    gap: 1.25rem;
+}
+article .container>div>p {
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: start;
+    width: calc(85% - 0.875rem);
+}
+article .container>div>span {
+    width: calc(15% - 0.8755rem);
 }
 main .thirdPart {
   align-items: center;
@@ -395,7 +393,6 @@ main aside p {
 .icon-h4 i {
   margin-top: 0.3rem;
 }
-
 .icon-txt-3 .icon-h4 {
   display: flex;
 }
@@ -472,7 +469,6 @@ main aside p {
   color: rgb(116, 7, 7);
   font-weight: 600;
 }
-
 .premios .premios-txt {
   font-size: 1em;
   margin-top: 5px;
@@ -485,8 +481,11 @@ main aside p {
 }
 
 #section1 {
-  display: flex;
   align-items: center;
+  background-color: rgb(56, 50, 79);
+  display: flex;
+  height: 24rem;
+  margin: 2rem;
   justify-content: center;
 }
 .grid {
@@ -495,11 +494,11 @@ main aside p {
   height: 25rem;
   width: 85%;
 }
-.services img {
-  height: 555px;
-  margin: 25px;
-  padding: 25px;
-  width: 100px;
+.services .icon {
+    height: 105px;
+    margin: 55px;
+    padding: 25px;
+    width: 105px;
 }
 .grid .services {
   display: flex;
@@ -513,23 +512,29 @@ main aside p {
 .services p {
   color: blanchedalmond;
 }
-#section1 {
-  background-color: rgb(56, 50, 79);
-}
 #section2 {
   align-items: center;
+  height: 50rem;
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 100%;
 }
 .parte2 {
-  align-items: center;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 25rem;
+  margin-top: 4rem;
+  width: 80%;
 }
-.clients img {
+.clientes {
+    display: flex;
+    align-items: center;
+}
+.clients .wh {
+  height: 750px;
   margin: 25px;
-  padding: 105px;
-  width: 400px;
+  padding: 25px;
+  width: 600px;
 }
 .opinion {
   display: flex;
@@ -544,6 +549,7 @@ footer .fin {
 footer .section1 {
   background-color: #2b2933;
   display: flex;
+  height: 5rem;
   justify-content: center;
   width: 100%;
 }
@@ -564,17 +570,22 @@ footer .section2 {
   justify-content: center;
   width: 100%;
 }
-footer .pfinal {
+footer .section2 {
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  width: 14%;
+  justify-content: center;
+  width: 100%;
 }
-.section2 p {
+.section2 .pfinal p {
   color: aliceblue;
 }
 .pfinal {
-  display: flex;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
 }
 .pfinal .templated {
   text-decoration: underline;
@@ -626,18 +637,27 @@ footer .pfinal {
   section .squares {
     display: flex;
     flex-direction: column;
-    height: 46rem;
-  }
-  main article {
-    height: auto;
-  }
-  section .containerHigthLigths .galeryWinningTactics {
+    justify-content: start;
+    width: 90%;
+}
+.services h2 {
+    color: blanchedalmond;
+}
+.services p {
+    color: blanchedalmond;
+}
+#section1 {
+    background-color: rgb(56, 50, 79);
+}
+#section2 {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .containerHigthLigths {
+    width: 80%;
+}
+.parte2 {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
   }
@@ -646,27 +666,90 @@ footer .pfinal {
     padding: 1.5rem 2rem;
   }
 }
+@keyframes close1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        height: 26rem;
+        position: relative;
+        top: 0.375rem;
+        transform: rotate(45deg);
+        width: 1.125rem;
+    }
+}
+@keyframes close2 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes close3 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        bottom: 0.125rem;
+        height: 30rem;
+        position: relative;
+        transform: rotate(135deg);
+        width: 1.25rem;
+    }
+}
+@media (max-width: 480px) {
+    .navbar-toggler {
+        margin-right: 1.5rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+        margin-left: 1.5rem;
+    }
+    section .squares {
+        display: flex;
+        flex-direction: column;
+        height: 46rem;
+    }
+    main article {
+        height: auto;
+    }
+    section .containerHigthLigths .galeryWinningTactics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .containerHigthLigths {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main aside {
+        height: auto;
+        padding: 1.5rem 2rem;
+    }
+}
 @media (min-width: 1200px) {
-  .navbar-toggler {
-    margin-right: 6rem;
-  }
-  .navbar-brand {
-    font-size: 3rem;
-    margin-left: 5rem;
-  }
-  .navbar-toggler-icon {
-    height: 3.5rem;
-    margin-top: 0.5rem;
-    width: 3.5rem;
-  }
-  .navbar-toggler .icon-bar {
-    display: block;
-    height: 0.875px;
-    border-radius: 60.375px;
-    margin-bottom: 0.625rem;
-    width: 2.75rem;
-  }
-  .navbar-toggler .icon-bar:last-child {
-    margin-bottom: 0;
-  }
+    .navbar-toggler {
+        margin-right: 6rem;
+    }
+    .navbar-brand {
+        font-size: 3rem;
+        margin-left: 5rem;
+    }
+    .navbar-toggler-icon {
+        height: 3.5rem;
+        margin-top: 0.5rem;
+        width: 3.5rem;
+    }
+    .navbar-toggler .icon-bar {
+        display: block;
+        height: 0.875px;
+        border-radius: 60.375px;
+        margin-bottom: 0.625rem;
+        width: 2.75rem;
+    }
+    .navbar-toggler .icon-bar:last-child {
+        margin-bottom: 0;
+    }
 }
