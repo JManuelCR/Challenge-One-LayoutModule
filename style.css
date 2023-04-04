@@ -258,31 +258,30 @@ main aside p {
 }
 .red-section {
   background: rgb(116, 7, 7);
-  display: inline-block;
-  margin-top: 0.1rem;
+  display: flex;
   height: 40rem;
   width: 100%;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
 }
 .red-section .white-box {
   background: white;
   display: grid;
   border-radius: 1rem;
-  flex-wrap: wrap;
-  flex: 1 1 auto;
   grid-template-columns: repeat(2, 1fr);
-  height: 450px;
-  margin-top: 5%;
+  height: auto;
+  width: 80%;
 }
 .white-box .txt-container {
   display:flex;
-  width: 100%;
   height: 100%;
   flex-direction: column;
-  gap: .5rem;
-  margin-left: 1rem;
-  font-size: 1.15rem;
+  gap: 1rem;
+  margin-left: .5rem;
+  font-size: 2rem; 
   justify-content: center;
+  padding-left: 2rem;
+  width: 100%;
 }
 .txt-container .h2 {
   text-align: start;
@@ -297,8 +296,14 @@ main aside p {
   display: flex;
   margin-top: 1rem;
   align-items: start;
-  width: 15%;
+  width: fit-content;
+  font-size: 1rem;
 }
+
+.icon-txt-1 p{
+  font-size: 1rem;
+}
+
 .icon-txt-1 .bx-scatter-chart {
   margin-left: -0.8rem;
   margin-top: 1.1rem;
@@ -313,9 +318,12 @@ main aside p {
   display: flex;
   margin-top: 2rem;
   align-items: start;
-  width: 16%;
+  width: fit-content;
+  font-size: 1rem;
 }
-
+.icon-txt-2 p{
+  font-size: 1rem;
+}
 .icon-txt-2 .bx-conversation {
   display: flex;
   margin-top: .2rem;
@@ -327,14 +335,17 @@ main aside p {
   flex-wrap: wrap;
   width: 15rem;
   font-size: 0.7rem;
+  width: auto;
 }
 .icon-txt-3 .icon-h4 {
   display: flex;
   margin-top: 1rem;
   align-items: start;
-  margin-left: 0rem;
-  width: 35%;
+  font-size: 1rem;
+}
 
+.icon-txt-3 p{
+  font-size: 1rem;
 }
 
 .icon-txt-3 .bxs-bolt {
@@ -343,17 +354,19 @@ main aside p {
   align-items: start;
 
 }
-.white-box .imagen-cubos {
+.white-box .imagen-barbon {
   align-items: center;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 500px;
+  justify-content:end ;
 }
 .white-box img {
-  width: 80%;
-  height: 70%;
-  margin-bottom: 1rem;
+  width: auto;
+  height:100%;
+  display: flex;
+  border-radius: 1rem;
 }
 
 .txt-container .icon-txt-1 {
